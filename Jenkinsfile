@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo "📦 Cloning repository..."
-                git branch: 'master', url: 'https://github.com/hakyla/FE-Kelompok-Umroh.git'
+                git branch: 'main', url: 'https://github.com/hakyla/FE-Kelompok-Umroh.git'
             }
         }
 
